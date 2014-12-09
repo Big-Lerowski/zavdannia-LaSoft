@@ -1,34 +1,36 @@
-1.function fib (){
- var m=[0,1];
- for(var i=2;i<12;i++){
-  m[i]=m[i-2]+m[i-1];
- }
- return m;
-}; fib() - //prosto 12 pershuh elementiv
+3.  function times() {
+    var count = 0;
+    function plus() {
+    counter+=1;
+    }
+    plus();    
+    console.log(count); 
+     }; 
+    times() - vuvodut zavzhdu 1 raz
+    
+    OR:
+    
+//- cia pracue krasche:
+   function counter() {
+   var times = 0;
+   return function plus() {
+      return ++times;
+   }
+   return times
+                      }; 
+    var count = counter(); - // scho treba dopusatu var ne sama dodymalasia, dopomoglu
+    count() - // rahyie sama sebe, counter mae dostup do times i do danuh vnytrishnioi function, jaksho vudalutu var count=counter() - zhodna z dvoh ne prazuvatyme (ja tak zrozumila)
  
-//OR: 1. var i=2;
-var m=[0,1];
-m.length=12;
-function fib (){ 
- m[i]=m[i-2]+m[i-1];
- i++;
- if(i<m.length-1){ 
-  fib ();
- }
- return m;
-}; fib() - //iaksho kojnogo razy vuklukatu funkcijy, to dodaetsia po odnomy elementu z riady fibonachi.
+//OR:
+     var times = 0;
+     function count() {
+     return times += 1;
+      }; 
+count()- //te same, ale 1 function. i prazuie ok. ALE my zmojemo zminutu times, ne vyklykaiychu count, a v poperednjiomy nijak.
  
-//OR: 1. function fib (n){
- var m=[0,1];
- for(var i=2;i<n;i++){
-  m[i]=m[i-2]+m[i-1];
- }
- return m;
-}; fib(455) - //vukluche 455 elementiv z tiady fibonachi.
 
 
-
-//test2 branch
+//test4 branch
  
 
  
