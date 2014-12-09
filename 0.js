@@ -10,7 +10,7 @@ function fib (){
  
 //OR: 
 
-1. var i=2;
+var i=2;
 var m=[0,1];
 m.length=12;
 function fib (){ 
@@ -24,7 +24,7 @@ function fib (){
  
 //OR: 
 
-1. function fib (n){
+ function fib (n){
  var m=[0,1];
  for(var i=2;i<n;i++){
   m[i]=m[i-2]+m[i-1];
