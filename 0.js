@@ -1,14 +1,27 @@
-0. function add (){
- for(var i=1;i<arguments.length;i++){
-  arguments[0]+=arguments[i];
- }
- return arguments[0];
-};
-add(1,2,4,5,8);
-add(1, 4, 5, 5, 3, 5, 22, 5, 4, 65, 5, 42, 77);
-add(1,2);
- 
+//5.random
+    
+    function shouldWe(){
+   
+     var answer=["yes","no","not now","not today","give me 5 minutes","let me check my organizer","I must go","I'll call you","let me                     know","My dog is dead", "I have a stomachache","I must watch StarWars", "Luk, I'm your father"];   
+     
+     console.log(answer[Math.floor((Math.random() * answer.length) + 1)]);
+    }
+    shouldWe()
+    
+    //OR:
+    
+    function shouldWe(text){
+     var answer=["yes","no","not now","not today","give me 5 minutes","let me check my organizer","I must go","I'll call you","let me                     know","My dog is dead", "I have a stomachache","I must watch StarWars", "Luk, I'm your father"];  
+      
+       if (text==='go to the movie?'){ 
+       console.log(answer[Math.floor((Math.random() * answer.length) + 1)]);
+    };
+                            };
+    shouldWe('go to the movie?')
 
+
+
+//test6 branch
  
 
  
