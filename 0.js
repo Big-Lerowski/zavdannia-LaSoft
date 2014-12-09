@@ -1,4 +1,6 @@
-3.  function times() {
+//3. Kilkist raziv 
+
+    function times() {
     var count = 0;
     function plus() {
     counter+=1;
@@ -19,6 +21,7 @@
    return times
                       }; 
     var count = counter(); - // scho treba dopusatu var ne sama dodymalasia, dopomoglu
+    
     count() - // rahyie sama sebe, counter mae dostup do times i do danuh vnytrishnioi function, jaksho vudalutu var count=counter() - zhodna z dvoh ne prazuvatyme (ja tak zrozumila)
  
 //OR:
@@ -26,7 +29,7 @@
      function count() {
      return times += 1;
       }; 
-count()- //te same, ale 1 function. i prazuie ok. ALE my zmojemo zminutu times, ne vyklykaiychu count, a v poperednjiomy nijak.
+     count()- //te same, ale 1 function. i prazuie ok. ALE my zmojemo zminutu times, ne vyklykaiychu count, a v poperednjiomy nijak.
  
 
 
