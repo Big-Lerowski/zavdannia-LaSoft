@@ -1,8 +1,8 @@
-5.random
+//5.random
     
     function shouldWe(){
    
-    var answer=["yes","no","not now","not today","give me 5 minutes","let me check my organizer","I must go","I'll call you","let me                     know","My dog is dead", "I have a stomachache","I must watch StarWars", "Luk, I'm your father"];   
+     var answer=["yes","no","not now","not today","give me 5 minutes","let me check my organizer","I must go","I'll call you","let me                     know","My dog is dead", "I have a stomachache","I must watch StarWars", "Luk, I'm your father"];   
      
      console.log(answer[Math.floor((Math.random() * answer.length) + 1)]);
     }
