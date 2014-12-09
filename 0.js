@@ -1,4 +1,6 @@
-0. function add (){
+//0. function add
+
+function add (){
  for(var i=1;i<arguments.length;i++){
   arguments[0]+=arguments[i];
  }
