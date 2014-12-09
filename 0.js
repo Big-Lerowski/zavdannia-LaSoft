@@ -1,17 +1,16 @@
 4. // dyvno, ale praciue
 function populate(obj){
-   var obj = {
-          };
-        }
+   var obj = {};
+                      }
     populate(obj);
     console.log(obj);
     
     //OR:
     
-    function populate(name,password){
+   function populate(name,password){
    var obj = {
-   name:"name",
-  password:"password";
+      name:"name",
+      password:"password";
              };
                           }
     populate(obj);
@@ -20,7 +19,7 @@ function populate(obj){
 
 
 
-//test2 branch
+//test5 branch
  
 
  
