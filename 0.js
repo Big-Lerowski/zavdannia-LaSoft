@@ -1,19 +1,13 @@
-0. function add (){
- for(var i=1;i<arguments.length;i++){
-  arguments[0]+=arguments[i];
- }
- return arguments[0];
-};
-add(1,2,4,5,8);
-add(1, 4, 5, 5, 3, 5, 22, 5, 4, 65, 5, 42, 77);
-add(1,2);
+//2. Seredyna vidrizka 
+
+
+   function point(x1,x2,y1,y2){
+	var z=[(x1+x2)/2, (y1+y2)/2];
+     return [z[0],z[1]];
+                              };
+
+
+    point (3,44,1,8) - //obrahovye tochky poseredyni mizh dvoma inshumu.
+
+//test3 branch
  
-
- 
-
- 
-
-
-    
-    
-   
