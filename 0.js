@@ -6,7 +6,7 @@
     plus();    
     console.log(count); 
      }; 
-    times() - vuvodut zavzhdu 1 raz
+    times() //- vuvodut zavzhdu 1 raz
     
     OR:
     
