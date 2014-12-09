@@ -1,34 +1,10 @@
-1.function fib (){
- var m=[0,1];
- for(var i=2;i<12;i++){
-  m[i]=m[i-2]+m[i-1];
- }
- return m;
-}; fib() - //prosto 12 pershuh elementiv
- 
-//OR: 1. var i=2;
-var m=[0,1];
-m.length=12;
-function fib (){ 
- m[i]=m[i-2]+m[i-1];
- i++;
- if(i<m.length-1){ 
-  fib ();
- }
- return m;
-}; fib() - //iaksho kojnogo razy vuklukatu funkcijy, to dodaetsia po odnomy elementu z riady fibonachi.
- 
-//OR: 1. function fib (n){
- var m=[0,1];
- for(var i=2;i<n;i++){
-  m[i]=m[i-2]+m[i-1];
- }
- return m;
-}; fib(455) - //vukluche 455 elementiv z tiady fibonachi.
+2. function point(x1,x2,y1,y2){
+	var z=[(x1+x2)/2, (y1+y2)/2];
+return [z[0],z[1]];
+      };
+point (3,44,1,8) - //obrahovye tochky poseredyni mizh dvoma inshumu.
 
-
-
-//test2 branch
+//test3 branch
  
 
  
