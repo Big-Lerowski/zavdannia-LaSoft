@@ -1,34 +1,27 @@
-1.function fib (){
- var m=[0,1];
- for(var i=2;i<12;i++){
-  m[i]=m[i-2]+m[i-1];
- }
- return m;
-}; fib() - //prosto 12 pershuh elementiv
- 
-//OR: 1. var i=2;
-var m=[0,1];
-m.length=12;
-function fib (){ 
- m[i]=m[i-2]+m[i-1];
- i++;
- if(i<m.length-1){ 
-  fib ();
- }
- return m;
-}; fib() - //iaksho kojnogo razy vuklukatu funkcijy, to dodaetsia po odnomy elementu z riady fibonachi.
- 
-//OR: 1. function fib (n){
- var m=[0,1];
- for(var i=2;i<n;i++){
-  m[i]=m[i-2]+m[i-1];
- }
- return m;
-}; fib(455) - //vukluche 455 elementiv z tiady fibonachi.
+5.random
+    
+    function shouldWe(){
+   
+    var answer=["yes","no","not now","not today","give me 5 minutes","let me check my organizer","I must go","I'll call you","let me                     know","My dog is dead", "I have a stomachache","I must watch StarWars", "Luk, I'm your father"];   
+     
+     console.log(answer[Math.floor((Math.random() * answer.length) + 1)]);
+    }
+    shouldWe()
+    
+    //OR:
+    
+    function shouldWe(text){
+     var answer=["yes","no","not now","not today","give me 5 minutes","let me check my organizer","I must go","I'll call you","let me                     know","My dog is dead", "I have a stomachache","I must watch StarWars", "Luk, I'm your father"];  
+      
+       if (text==='go to the movie?'){ 
+       console.log(answer[Math.floor((Math.random() * answer.length) + 1)]);
+    };
+                            };
+    shouldWe('go to the movie?')
 
 
 
-//test2 branch
+//test6 branch
  
 
  
