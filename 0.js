@@ -1,4 +1,6 @@
-0. function add (){
+//0. function add
+
+function add (){
  for(var i=1;i<arguments.length;i++){
   arguments[0]+=arguments[i];
  }
@@ -9,8 +11,8 @@ add(1, 4, 5, 5, 3, 5, 22, 5, 4, 65, 5, 42, 77);
 add(1,2);
  
 
- 
-
+//test1 branch 
+//PIRIVETIKI
  
 
 
